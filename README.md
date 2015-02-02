@@ -1,8 +1,8 @@
-# Single Node [Accumulo](https://accumulo.apache.org/) Instance On Docker
+## Single Node [Accumulo](https://accumulo.apache.org/) Instance On Docker
 
-This work is base on [https://github.com/medined/docker-accumulo](https://github.com/medined/docker-accumulo) - Thanks :-)
+This work is based on [https://github.com/medined/docker-accumulo](https://github.com/medined/docker-accumulo) - Thanks :-)
 
-If you are using [boot2docker](http://boot2docker.io/) you might want to up the memory and storage space.
+If you are using [boot2docker](http://boot2docker.io/), then you might want to up the memory and storage space.
 
 ```shell
 boot2docker init -m 8192 -s 32768
