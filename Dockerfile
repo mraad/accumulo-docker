@@ -32,4 +32,4 @@ RUN chown root:root /etc/*-all.sh;\
 ADD init-accumulo.sh /tmp/
 RUN /tmp/init-accumulo.sh
 
-EXPOSE 2181 9000 50095
+EXPOSE 2181 9000 50095 50096
